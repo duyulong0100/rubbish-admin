@@ -128,7 +128,7 @@ export default {
           // 登陆
           // 注意 这里的演示没有传验证码
           // 具体需要传递的数据请自行修改代码
-          util.cookies.set('token',`${ this.formLogin.username}|${ this.formLogin.username }`);
+          util.cookies.set('token',`${ this.formLogin.username}|${ this.formLogin.username }`,{expires:null});
           this.$router.push('/');
         } else {
           // 登陆表单校验失败

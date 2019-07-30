@@ -26,11 +26,11 @@
         <template slot="tableColumns">
           <el-table-column
                   prop="categoryName"
-                  label="名称">
+                  label="分类名称">
           </el-table-column>
           <el-table-column
                   prop="description"
-                  label="描述">
+                  label="分类描述">
           </el-table-column>
           <el-table-column label="状态">
             <template slot-scope="props">
@@ -52,10 +52,10 @@
     <el-dialog :title="dialogVO.id?'编辑':'新增'" :visible.sync="dialogShow">
       <el-form ref="dialogVO" :model="dialogVO" label-width="150px" :rules="rules">
         <el-form-item label="垃圾类型名称：" prop="categoryName">
-          <el-input style="width: 210px" v-model="dialogVO.itemName"></el-input>
+          <el-input style="width: 210px" v-model="dialogVO.categoryName"></el-input>
         </el-form-item>
         <el-form-item label="垃圾类型描述：" prop="description">
-          <el-input type="textarea" :rows="2" v-model="dialogVO.itemName" placeholder="请输入描述"></el-input>
+          <el-input type="textarea" :rows="2" v-model="dialogVO.description" placeholder="请输入描述"></el-input>
         </el-form-item>
         <el-form-item label="是否启用：">
           <el-switch v-model="dialogVO.status"></el-switch>
