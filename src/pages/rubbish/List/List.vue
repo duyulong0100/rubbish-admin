@@ -5,37 +5,36 @@
 
       <!---->
       <table-comb
-        name="垃圾管理"
-        ref="tableMain"
-        :search-model-base="tableMainSearchModelBase"
-        :get-action="$api.rubbish.list"
-        :get-action-where="getActionWhere"
-        :removeAction ="$api.rubbish.del"
-        :afterFetchData="afterFetchData">
+              name="垃圾管理"
+              ref="tableMain"
+              :search-model-base="tableMainSearchModelBase"
+              :get-action="$api.rubbish.list"
+              :get-action-where="getActionWhere"
+              :afterFetchData="afterFetchData">
         <!--基础查询-->
         <template slot="baseSearchForm" slot-scope="scope">
           <el-input
-            placeholder="请输入关键字"
-            prefix-icon="el-icon-search"
-            clearable
-            v-model="scope.form.keyword"
-            style="width: 250px; margin-left: 10px;">
+                  placeholder="请输入关键字"
+                  prefix-icon="el-icon-search"
+                  clearable
+                  v-model="scope.form.keyword"
+                  style="width: 250px; margin-left: 10px;">
           </el-input>
           <el-button class="fr ml10" @click="addRubbish">新增</el-button>
         </template>
         <!--表格-->
         <template slot="tableColumns">
           <el-table-column
-            prop="itemName"
-            label="名称">
+                  prop="itemName"
+                  label="名称">
           </el-table-column>
           <el-table-column
-            prop="belongCategory.categoryName"
-            label="类型">
+                  prop="belongCategory.categoryName"
+                  label="类型">
           </el-table-column>
           <el-table-column
-            prop="belongCategory.description"
-            label="描述">
+                  prop="belongCategory.description"
+                  label="描述">
           </el-table-column>
           <el-table-column label="状态">
             <template slot-scope="props">
@@ -62,9 +61,9 @@
         <el-form-item label="所属类型：" prop="categoryId">
           <el-select style="width: 210px" v-model="dialogVO.categoryId" placeholder="请选择分类">
             <el-option
-              v-for="item in categoryList"
-              :label="item.categoryName"
-              :value="item.id">
+                    v-for="item in categoryList"
+                    :label="item.categoryName"
+                    :value="item.id">
             </el-option>
           </el-select>
         </el-form-item>

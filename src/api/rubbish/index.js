@@ -16,20 +16,6 @@ export default {
     })
   },
   /**
-   * 垃圾类型列表
-   * @returns {*}
-   */
-  categoryList (condition, pageInfo) {
-    pageInfo = Object.assign({
-      currentPage: 1,
-      pageSize: 10
-    }, pageInfo)
-    return axios.post('/rubbish/category/list', {
-      ...condition,
-      ...pageInfo
-    })
-  },
-  /**
    * 垃圾新增
    * @returns {*}
    */
@@ -62,5 +48,55 @@ export default {
       }
     })
   },
+
+
+  /**
+   * 垃圾类型列表
+   * @returns {*}
+   */
+  categoryList (condition, pageInfo) {
+    pageInfo = Object.assign({
+      currentPage: 1,
+      pageSize: 10
+    }, pageInfo)
+    return axios.post('/rubbish/category/list', {
+      ...condition,
+      ...pageInfo
+    })
+  },
+  /**
+   * 垃圾类型新增
+   * @returns {*}
+   */
+  categoryCreate (vo) {
+    return axios.get('/rubbish/category/create', {
+      params: {
+        ...vo
+      }
+    })
+  },
+  /**
+   * 垃圾类型编辑
+   * @returns {*}
+   */
+  categoryEdit (vo) {
+    return axios.get('/rubbish/category/edit', {
+      params: {
+        ...vo
+      }
+    })
+  },
+  /**
+   * 垃圾类型删除
+   * @returns {*}
+   */
+  categoryDel (id) {
+    return axios.get('/rubbish/category/del', {
+      params: {
+        id
+      }
+    })
+  },
+
 
 }
