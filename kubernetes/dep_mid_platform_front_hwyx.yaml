@@ -1,0 +1,32 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: mid-platform-front-deployment
+  labels:
+    app: mid-platform-front
+spec:
+  replicas: 1
+  revisionHistoryLimit: 1
+  selector:
+    matchLabels:
+      app: mid-platform-front
+  template:
+    metadata:
+      labels:
+        app: mid-platform-front
+    spec:
+      hostNetwork: false
+      nodeSelector: 
+        appZone: yqb-huawei
+      containers:
+      - name: mid-platform-front
+        image: swr.cn-south-1.myhuaweicloud.com/onlyou_xmsz/mid-platform-front:2019-4-3_1
+        env:
+        - name: SPRING_PROFILES_ACTIVE
+          value: hwyx
+        - name: TZ
+          value: Asia/Shanghai
+        - name: VM_OPTION
+          value: -XX:MaxPermSize=128m -Xmx1024m
+      imagePullSecrets:
+      - name: default-secret

@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b3dc34b-522e-4dd1-9075-30dd57a45df2" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-611514434">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="development" value="1" />
+          <entry key="env" value="1" />
+          <entry key="js" value="20" />
+          <entry key="json" value="2" />
+          <entry key="vue" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="8" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="20" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="205" />
+          <entry key="json" value="5" />
+          <entry key="vue" value="1282" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1282" />
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="205" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/router/routerConfigs/rubbish/rubbish.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="e#21#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/rubbish/List/List.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="203" column="23" lean-forward="true" selection-start-line="203" selection-start-column="23" selection-end-line="203" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#el-input#0;n#template#0;n#table-comb#0;n#d2-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-input#0;n#el-form-item#0;n#el-form#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-select#0;n#el-form-item#1;n#el-form#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routerConfig.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="654">
+              <caret line="53" column="23" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/table-comb/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1650">
+              <caret line="335" column="15" selection-start-line="335" selection-start-column="4" selection-end-line="335" selection-end-column="15" />
+              <folding>
+                <element signature="n#template#0;n#!!top" />
+                <element signature="n#section#0;n#template#0;n#!!top" />
+                <element signature="n#section#0;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#div#0;n#section#0;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#el-form#0;n#section#0;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#el-input#0;n#el-form#0;n#section#0;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#section#1;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#el-form#0;n#section#1;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#div#0;n#el-form#0;n#section#1;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#div#0;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#slot#0;n#div#0;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#section#2;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#el-table#0;n#section#2;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#section#3;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#div#0;n#section#3;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#transition-group#0;n#div#0;n#section#3;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#section#4;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#el-pagination#0;n#section#4;n#section#0;n#template#0;n#!!top" />
+                <element signature="e#3037#3919#0" />
+                <element signature="e#3208#3257#0" />
+                <element signature="e#3279#3328#0" />
+                <element signature="e#3355#3402#0" />
+                <element signature="e#3442#3491#0" />
+                <element signature="e#3583#3687#0" />
+                <element signature="e#3626#3681#0" />
+                <element signature="e#3643#3673#0" />
+                <element signature="e#3730#3790#0" />
+                <element signature="e#3867#3915#0" />
+                <element signature="e#3931#4283#0" />
+                <element signature="e#3944#4279#0" />
+                <element signature="e#4129#4215#0" />
+                <element signature="e#4294#4619#0" />
+                <element signature="e#4318#4386#0" />
+                <element signature="e#4406#4466#0" />
+                <element signature="e#4500#4615#0" />
+                <element signature="e#4536#4609#0" />
+                <element signature="e#4633#4717#0" />
+                <element signature="e#4659#4713#0" />
+                <element signature="e#4778#5045#0" />
+                <element signature="e#4807#4865#0" />
+                <element signature="e#4883#4972#0" />
+                <element signature="e#4978#5016#0" />
+                <element signature="e#5051#5078#0" />
+                <element signature="e#5111#5842#0" />
+                <element signature="e#5211#5268#0" />
+                <element signature="e#5276#5310#0" />
+                <element signature="e#5349#5568#0" />
+                <element signature="e#5410#5560#0" />
+                <element signature="e#5476#5550#0" />
+                <element signature="e#5574#5836#0" />
+                <element signature="e#5643#5704#0" />
+                <element signature="e#5779#5828#0" />
+                <element signature="e#5848#5873#0" />
+                <element signature="e#5901#6151#0" />
+                <element signature="e#5935#6038#0" />
+                <element signature="e#5967#6029#0" />
+                <element signature="e#6044#6145#0" />
+                <element signature="e#6081#6136#0" />
+                <element signature="e#6157#6185#0" />
+                <element signature="e#6215#6764#0" />
+                <element signature="e#6310#6758#0" />
+                <element signature="e#6375#6750#0" />
+                <element signature="e#6494#6683#0" />
+                <element signature="e#6560#6671#0" />
+                <element signature="e#6770#6800#0" />
+                <element signature="e#6829#7315#0" />
+                <element signature="e#6924#7309#0" />
+                <element signature="e#7055#7250#0" />
+                <element signature="e#7135#7240#0" />
+                <element signature="e#7321#7350#0" />
+                <element signature="e#7376#7804#0" />
+                <element signature="e#7538#7798#0" />
+                <element signature="e#7596#7790#0" />
+                <element signature="e#7676#7780#0" />
+                <element signature="e#7810#7839#0" />
+                <element signature="e#7866#7934#0" />
+                <element signature="e#7940#7965#0" />
+                <element signature="e#8798#8961#0" />
+                <element signature="e#8857#8945#0" />
+                <element signature="e#9385#9441#0" />
+                <element signature="e#9496#9523#0" />
+                <element signature="e#9648#9687#0" />
+                <element signature="e#9725#9801#0" />
+                <element signature="e#9831#9895#0" />
+                <element signature="e#9916#10074#0" />
+                <element signature="e#10300#10558#0" />
+                <element signature="e#10353#10544#0" />
+                <element signature="e#10416#10528#0" />
+                <element signature="e#10768#10824#0" />
+                <element signature="e#10857#10866#0" />
+                <element signature="e#10879#10932#0" />
+                <element signature="n#style#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/rubbish/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="534">
+              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+              <folding>
+                <element signature="e#371#556#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>proxy</find>
+      <find>submit</find>
+      <find>mid-platfo</find>
+      <find>/mid-platform/</find>
+      <find>sockjs</find>
+      <find>$confirm</find>
+      <find>删除</find>
+      <find>remove</find>
+      <find>delRubbish</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/pages/rubbish/TypeList/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/rubbish/List/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/Login/page.vue" />
+        <option value="$PROJECT_DIR$/src/routerConfig.js" />
+        <option value="$PROJECT_DIR$/src/router/routerConfigs/rubbish/rubbish.js" />
+        <option value="$PROJECT_DIR$/src/pages/Index/page.vue" />
+        <option value="$PROJECT_DIR$/.env.development" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/src/router/index.js" />
+        <option value="$PROJECT_DIR$/src/components/table-comb/index.vue" />
+        <option value="$PROJECT_DIR$/src/pages/rubbish/TypeList/TypeList.vue" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/src/api/rubbish/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/rubbish/List/List.vue" />
+        <option value="$PROJECT_DIR$/vue.config.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="rubbish" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="table-comb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="rubbish" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="rubbish" type="462c0819:PsiDirectoryNode" />
+              <item name="List" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="rubbish" type="462c0819:PsiDirectoryNode" />
+              <item name="TypeList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="routerConfigs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="routerConfigs" type="462c0819:PsiDirectoryNode" />
+              <item name="rubbish" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564473338417" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nr\Desktop\素材\19xcx\admin\src\pages\rubbish\List" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b3dc34b-522e-4dd1-9075-30dd57a45df2" name="Default Changelist" comment="" />
+      <created>1564397442105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564397442105</updated>
+      <workItem from="1564397444142" duration="2776000" />
+      <workItem from="1564449386962" duration="183000" />
+      <workItem from="1564453216862" duration="12282000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15241000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info id="Structure" order="1" show_stripe_button="false" sideWeight="0.5010846" side_tool="true" weight="0.32995737" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" show_stripe_button="false" sideWeight="0.4989154" side_tool="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2496329" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32966226" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.2365648" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/pages/Index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Login/page.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+          <folding>
+            <element signature="n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#2082#2119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/modules/d2admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1825">
+          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/rubbish/TypeList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/util-ice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/js/chunk-vendors.300215f9.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="66" column="398770" selection-start-line="66" selection-start-column="398770" selection-end-line="66" selection-end-column="398770" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1346">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#513#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Index/page.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.development">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="13277" column="60" selection-start-line="13277" selection-start-column="60" selection-end-line="13277" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/rubbish/TypeList/TypeList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#el-input#0;n#template#0;n#table-comb#0;n#d2-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/rubbish/List/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/routerConfigs/rubbish/rubbish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#21#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/rubbish/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+          <folding>
+            <element signature="e#371#556#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/table-comb/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1650">
+          <caret line="335" column="15" selection-start-line="335" selection-start-column="4" selection-end-line="335" selection-end-column="15" />
+          <folding>
+            <element signature="n#template#0;n#!!top" />
+            <element signature="n#section#0;n#template#0;n#!!top" />
+            <element signature="n#section#0;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#el-form#0;n#section#0;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#el-input#0;n#el-form#0;n#section#0;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#section#1;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#el-form#0;n#section#1;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#el-form#0;n#section#1;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#slot#0;n#div#0;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#section#2;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#el-table#0;n#section#2;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#section#3;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#section#3;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#transition-group#0;n#div#0;n#section#3;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#section#4;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#el-pagination#0;n#section#4;n#section#0;n#template#0;n#!!top" />
+            <element signature="e#3037#3919#0" />
+            <element signature="e#3208#3257#0" />
+            <element signature="e#3279#3328#0" />
+            <element signature="e#3355#3402#0" />
+            <element signature="e#3442#3491#0" />
+            <element signature="e#3583#3687#0" />
+            <element signature="e#3626#3681#0" />
+            <element signature="e#3643#3673#0" />
+            <element signature="e#3730#3790#0" />
+            <element signature="e#3867#3915#0" />
+            <element signature="e#3931#4283#0" />
+            <element signature="e#3944#4279#0" />
+            <element signature="e#4129#4215#0" />
+            <element signature="e#4294#4619#0" />
+            <element signature="e#4318#4386#0" />
+            <element signature="e#4406#4466#0" />
+            <element signature="e#4500#4615#0" />
+            <element signature="e#4536#4609#0" />
+            <element signature="e#4633#4717#0" />
+            <element signature="e#4659#4713#0" />
+            <element signature="e#4778#5045#0" />
+            <element signature="e#4807#4865#0" />
+            <element signature="e#4883#4972#0" />
+            <element signature="e#4978#5016#0" />
+            <element signature="e#5051#5078#0" />
+            <element signature="e#5111#5842#0" />
+            <element signature="e#5211#5268#0" />
+            <element signature="e#5276#5310#0" />
+            <element signature="e#5349#5568#0" />
+            <element signature="e#5410#5560#0" />
+            <element signature="e#5476#5550#0" />
+            <element signature="e#5574#5836#0" />
+            <element signature="e#5643#5704#0" />
+            <element signature="e#5779#5828#0" />
+            <element signature="e#5848#5873#0" />
+            <element signature="e#5901#6151#0" />
+            <element signature="e#5935#6038#0" />
+            <element signature="e#5967#6029#0" />
+            <element signature="e#6044#6145#0" />
+            <element signature="e#6081#6136#0" />
+            <element signature="e#6157#6185#0" />
+            <element signature="e#6215#6764#0" />
+            <element signature="e#6310#6758#0" />
+            <element signature="e#6375#6750#0" />
+            <element signature="e#6494#6683#0" />
+            <element signature="e#6560#6671#0" />
+            <element signature="e#6770#6800#0" />
+            <element signature="e#6829#7315#0" />
+            <element signature="e#6924#7309#0" />
+            <element signature="e#7055#7250#0" />
+            <element signature="e#7135#7240#0" />
+            <element signature="e#7321#7350#0" />
+            <element signature="e#7376#7804#0" />
+            <element signature="e#7538#7798#0" />
+            <element signature="e#7596#7790#0" />
+            <element signature="e#7676#7780#0" />
+            <element signature="e#7810#7839#0" />
+            <element signature="e#7866#7934#0" />
+            <element signature="e#7940#7965#0" />
+            <element signature="e#8798#8961#0" />
+            <element signature="e#8857#8945#0" />
+            <element signature="e#9385#9441#0" />
+            <element signature="e#9496#9523#0" />
+            <element signature="e#9648#9687#0" />
+            <element signature="e#9725#9801#0" />
+            <element signature="e#9831#9895#0" />
+            <element signature="e#9916#10074#0" />
+            <element signature="e#10300#10558#0" />
+            <element signature="e#10353#10544#0" />
+            <element signature="e#10416#10528#0" />
+            <element signature="e#10768#10824#0" />
+            <element signature="e#10857#10866#0" />
+            <element signature="e#10879#10932#0" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/rubbish/List/List.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="203" column="23" lean-forward="true" selection-start-line="203" selection-start-column="23" selection-end-line="203" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#el-input#0;n#template#0;n#table-comb#0;n#d2-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#el-form-item#0;n#el-form#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-select#0;n#el-form-item#1;n#el-form#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routerConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
