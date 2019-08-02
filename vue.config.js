@@ -19,7 +19,7 @@ module.exports = {
     // 代理设置
     proxy: {
       '/': {
-        target: 'https://api.happysyoung.com/',
+        target: 'http://api.happysyoung.com/',
         changeOrigin: true,
       }
     }

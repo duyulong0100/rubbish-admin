@@ -11,6 +11,7 @@ import Error404 from './pages/Error404';
 
 //垃圾分类
 import rubbish from './router/routerConfigs/rubbish/rubbish';
+import motor from './router/routerConfigs/motor/motor';
 
 const routerConfig = [
   {
@@ -52,7 +53,8 @@ const routerConfigMenuOut = [
 // 这个数据会在 router.js 中被扁平处理
 
 export const pageRouter = [
-  ...rubbish
+  ...rubbish,
+  ...motor
 ]
 
 export default UtilIce.recursiveRouterConfig([

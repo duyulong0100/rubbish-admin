@@ -6,6 +6,9 @@ import Blank from "@/layout/Blank/index";
 import RabbishTypeList from '@/pages/rubbish/TypeList';
 import RabbishList from '@/pages/rubbish/List';
 
+const parentNode = 'rabbish'
+const parentNodeName = '垃圾管理'
+
 export default [
   {
     path: '/rabbish/typeList',
@@ -13,7 +16,7 @@ export default [
     layout: Blank,
     component: RabbishTypeList,
     meta: {
-      title: '垃圾类型管理',
+      title: '垃圾类型',
     }
   },
   {
@@ -22,8 +25,13 @@ export default [
     layout: Blank,
     component: RabbishList,
     meta: {
-      title: '垃圾管理',
+      title: '垃圾列表',
     }
   },
-
-]
+].map(item=>{
+  return {
+    parentNode,
+    parentNodeName,
+    ...item,
+  }
+});

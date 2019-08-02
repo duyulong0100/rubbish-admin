@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b3dc34b-522e-4dd1-9075-30dd57a45df2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/motor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/motor/List/List.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/motor/List/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/app.3e4f517b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/app.3e4f517b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/script/ua.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/script/ua.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/script/ua.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/script/ua.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/app.131b7131.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/app.131b7131.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Index/page.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index/page.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/routerConfigs/rubbish/rubbish.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/routerConfigs/rubbish/rubbish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routerConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routerConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,16 +79,16 @@
           <entry key="development" value="1" />
           <entry key="env" value="1" />
           <entry key="html" value="2" />
-          <entry key="js" value="2" />
+          <entry key="js" value="6" />
           <entry key="md" value="1" />
-          <entry key="vue" value="2" />
+          <entry key="vue" value="4" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
-          <entry key="JavaScript" value="2" />
+          <entry key="HTML" value="6" />
+          <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
@@ -93,50 +97,29 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="7" />
-          <entry key="js" value="7" />
+          <entry key="js" value="163" />
           <entry key="md" value="59" />
-          <entry key="txt" value="83" />
-          <entry key="vue" value="1" />
+          <entry key="txt" value="102" />
+          <entry key="vue" value="308" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="7" />
+          <entry key="HTML" value="308" />
+          <entry key="JavaScript" value="163" />
           <entry key="Markdown" value="59" />
-          <entry key="PLAIN_TEXT" value="90" />
+          <entry key="PLAIN_TEXT" value="109" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="3" column="14" selection-end-line="4" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="-10">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -166,11 +149,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/script/ua.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/motor/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/motor/List/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/motor/List/List.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#el-input#0;n#template#0;n#table-comb#0;n#d2-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/router/routerConfigs/motor/motor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="27" column="3" selection-start-line="21" selection-start-column="1" selection-end-line="27" selection-end-column="3" />
+              <folding>
+                <element signature="e#21#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,11 +219,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router/routerConfigs/rubbish/rubbish.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="173">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="20" />
               <folding>
                 <element signature="e#21#62#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Index/page.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-237">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -251,8 +281,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routerConfig.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+            <state relative-caret-position="-900">
+              <caret line="12" column="59" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="59" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -378,7 +408,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/rubbish/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2150">
+            <state relative-caret-position="723">
               <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
             </state>
           </provider>
@@ -399,6 +429,10 @@
       <find>delRubbish</find>
       <find>请不要使用手机浏览</find>
       <find>is-mobile</find>
+      <find>addRubbish</find>
+      <find>addRecord</find>
+      <find>Rubbish</find>
+      <find>categoryList</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -410,9 +444,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/pages/rubbish/TypeList/index.js" />
         <option value="$PROJECT_DIR$/src/pages/rubbish/List/index.js" />
-        <option value="$PROJECT_DIR$/src/routerConfig.js" />
-        <option value="$PROJECT_DIR$/src/router/routerConfigs/rubbish/rubbish.js" />
-        <option value="$PROJECT_DIR$/src/pages/Index/page.vue" />
         <option value="$PROJECT_DIR$/.env.development" />
         <option value="$PROJECT_DIR$/src/router/index.js" />
         <option value="$PROJECT_DIR$/src/components/table-comb/index.vue" />
@@ -421,10 +452,16 @@
         <option value="$PROJECT_DIR$/src/pages/rubbish/List/List.vue" />
         <option value="$PROJECT_DIR$/src/pages/Login/page.vue" />
         <option value="$PROJECT_DIR$/src/pages/rubbish/TypeList/TypeList.vue" />
-        <option value="$PROJECT_DIR$/vue.config.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/public/script/ua.js" />
+        <option value="$PROJECT_DIR$/src/api/motor/index.js" />
+        <option value="$PROJECT_DIR$/src/routerConfig.js" />
+        <option value="$PROJECT_DIR$/src/pages/motor/List/List.vue" />
+        <option value="$PROJECT_DIR$/src/router/routerConfigs/motor/motor.js" />
+        <option value="$PROJECT_DIR$/src/router/routerConfigs/rubbish/rubbish.js" />
+        <option value="$PROJECT_DIR$/src/pages/Index/page.vue" />
+        <option value="$PROJECT_DIR$/vue.config.js" />
       </list>
     </option>
   </component>
@@ -465,12 +502,6 @@
             <path>
               <item name="rubbish-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="rubbish-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rubbish-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rubbish-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -484,6 +515,13 @@
               <item name="rubbish-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="motor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rubbish-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rubbish-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="rubbish" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -497,30 +535,22 @@
               <item name="rubbish-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rubbish-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="rubbish-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="rubbish" type="462c0819:PsiDirectoryNode" />
+              <item name="motor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rubbish-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="rubbish-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="rubbish" type="462c0819:PsiDirectoryNode" />
+              <item name="motor" type="462c0819:PsiDirectoryNode" />
               <item name="List" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rubbish-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rubbish-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="rubbish" type="462c0819:PsiDirectoryNode" />
-              <item name="TypeList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rubbish-admin" type="b2602c69:ProjectViewProjectNode" />
@@ -538,17 +568,21 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564713118001" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564716840053" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/motor/TypeList" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src/pages/motor/TypeList" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\rubbish-admin\src\router\routerConfigs" />
+      <recent name="D:\work\rubbish-admin\src\pages" />
+      <recent name="D:\work\rubbish-admin\src\api" />
       <recent name="C:\Users\nr\Desktop\素材\19xcx\admin\src\pages\rubbish\List" />
     </key>
   </component>
@@ -585,7 +619,7 @@
       <workItem from="1564539767043" duration="2190000" />
       <workItem from="1564542261110" duration="1200000" />
       <workItem from="1564624752824" duration="581000" />
-      <workItem from="1564712794777" duration="315000" />
+      <workItem from="1564712794777" duration="3964000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1564477072648</created>
@@ -608,11 +642,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564538488231</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="去掉手机模式预览限制">
+      <created>1564713257671</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564713257671</updated>
+    </task>
+    <task id="LOCAL-00005" summary="去掉手机模式预览限制">
+      <created>1564713495071</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564713495071</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26744000" />
+    <option name="totallyTimeSpent" value="30393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -644,7 +692,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32922733" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.42553192" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.7569989" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2496329" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -715,7 +763,8 @@
     <MESSAGE value="修改配置" />
     <MESSAGE value="配置修改" />
     <MESSAGE value="去掉手机模式预览限制" />
-    <option name="LAST_COMMIT_MESSAGE" value="去掉手机模式预览限制" />
+    <MESSAGE value="https 改为 http" />
+    <option name="LAST_COMMIT_MESSAGE" value="https 改为 http" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/Index/index.js">
@@ -761,13 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Index/page.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-401">
@@ -799,13 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -818,8 +853,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="650">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -827,16 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/routerConfigs/rubbish/rubbish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#21#62#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,16 +896,6 @@
             <element signature="n#template#0;n#!!top" />
             <element signature="n#style#0;n#el-row#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="e#2082#2119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routerConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -996,13 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/rubbish/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2150">
-          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1035,6 +1043,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/motor/List/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/rubbish/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/motor/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/motor/List/List.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#el-input#0;n#template#0;n#table-comb#0;n#d2-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/routerConfigs/motor/motor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="27" column="3" selection-start-line="21" selection-start-column="1" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#21#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routerConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="59" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/routerConfigs/rubbish/rubbish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#21#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Index/page.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>
