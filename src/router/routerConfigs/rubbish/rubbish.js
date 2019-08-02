@@ -1,7 +1,7 @@
 /**
  * 能耗相关路由
  * **/
-import Blank from "@/layout/Blank/index";
+import layout from "@/layout/HeaderAside";
 
 import RabbishTypeList from '@/pages/rubbish/TypeList';
 import RabbishList from '@/pages/rubbish/List';
@@ -13,7 +13,7 @@ export default [
   {
     path: '/rabbish/typeList',
     name: 'RabbishTypeList',
-    layout: Blank,
+    layout,
     component: RabbishTypeList,
     meta: {
       title: '垃圾类型',
@@ -22,7 +22,7 @@ export default [
   {
     path: '/rabbish/list',
     name: 'RabbishList',
-    layout: Blank,
+    layout,
     component: RabbishList,
     meta: {
       title: '垃圾列表',

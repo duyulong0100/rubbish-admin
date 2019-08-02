@@ -1,7 +1,7 @@
 /* eslint-disable */
 // 工具
 import UtilIce from '@/libs/util-ice.js'; // 页面和布局
-import Blank from './layout/Blank';
+import layout from './layout/HeaderAside';
 
 // 变量名 routerConfig 为 iceworks 检测关键字
 import Index from './pages/Index';
@@ -17,7 +17,7 @@ const routerConfig = [
   {
     path: '/',
     name: 'index',
-    layout: Blank,
+    layout,
     component: Index,
   },
 ];
@@ -38,6 +38,7 @@ const routerConfigMenuOut = [
   {
     path: '/401',
     name: 'Unauthorized',
+    layout,
     component: Error401,
     meta: {
       requiresAuth: false,
@@ -57,11 +58,16 @@ export const pageRouter = [
   ...motor
 ]
 
+
 export default UtilIce.recursiveRouterConfig([
   ...pageRouter,
   ...routerConfigMenuOut,
   ...routerConfig
 ]);
+
+
+
+
 
 
 // 导出参与多标签页处理的路由设置

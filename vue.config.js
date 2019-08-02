@@ -16,6 +16,7 @@ module.exports = {
   devServer: {
     // 和 baseUrl 保持一致
     publicPath: baseUrl,
+    inline: true,// 关闭热更新
     // 代理设置
     proxy: {
       '/': {

@@ -19,7 +19,7 @@
         <d2-menu-header/>
         <!-- 顶栏右侧 -->
         <div class="d2-header-right">
-          <d2-header-help/>
+        <!--  <d2-header-help/>-->
           <d2-header-fullscreen/>
           <d2-header-theme/>
           <d2-header-user/>

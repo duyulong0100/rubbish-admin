@@ -58,7 +58,8 @@ export default {
     // 监听路由 控制侧边栏激活状态
     '$route.matched': {
       handler (val) {
-        this.active = val[val.length - 1].path
+        this.active = val[0].path
+        // this.active = val[val.length - 1].path
         this.$nextTick(() => {
           if (this.menuAside.length > 0) {
             this.$refs.menu.activeIndex = this.active
