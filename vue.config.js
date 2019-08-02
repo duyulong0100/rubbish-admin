@@ -7,7 +7,7 @@ function resolve (dir) {
 }
 
 // 基础路径 注意发布之前要先修改这里
-const baseUrl = env === 'development' ? '/' : '/api'
+const baseUrl = env === 'development' ? '/' : '/'
 
 module.exports = {
   baseUrl, // 根据你的实际情况更改这里
