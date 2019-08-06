@@ -18,8 +18,16 @@
                   prefix-icon="el-icon-search"
                   clearable
                   v-model="scope.form.keyword"
-                  style="width: 250px; margin-left: 10px;">
+                  style="width: 250px; margin-left: 10px; margin-right: 10px">
           </el-input>
+          垃圾类型：
+          <el-select v-model="scope.form.categoryId" placeholder="请选择">
+            <el-option
+                    v-for="item in categoryList"
+                    :label="item.categoryName"
+                    :value="item.id">
+            </el-option>
+          </el-select>
           <el-button class="fr ml10" @click="addRubbish">新增</el-button>
         </template>
         <!--表格-->
@@ -61,9 +69,9 @@
         <el-form-item label="所属类型：" prop="categoryId">
           <el-select style="width: 210px" v-model="dialogVO.categoryId" placeholder="请选择分类">
             <el-option
-                    v-for="item in categoryList"
-                    :label="item.categoryName"
-                    :value="item.id">
+              v-for="item in categoryList"
+              :label="item.categoryName"
+              :value="item.id">
             </el-option>
           </el-select>
         </el-form-item>
@@ -93,6 +101,7 @@
       return {
         tableMainSearchModelBase:{
           keyword: '',
+          categoryId:''
         },
         //分类列表
         categoryList:[],

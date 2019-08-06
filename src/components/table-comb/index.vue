@@ -64,11 +64,11 @@
       <el-pagination
         @size-change="handleSizeChange"
         @current-change="fetchData"
-        :current-page="pagingInfo.currentPage"
+        :current-page="pagingInfo.page"
         :page-sizes="[10, 20, 50, 100]"
         :page-size="10"
         layout="total, sizes, prev, pager, next, jumper"
-        :total="pagingInfo.totalRecord">
+        :total="pagingInfo.totalCount">
       </el-pagination>
     </section>
   </section>
@@ -135,9 +135,9 @@ export default {
       isOpenAdvancedSearch: false, // 是否打开高级搜索
       sortInfo: null,
       pagingInfo: { // 分页信息
-        pageSize: 10,
-        currentPage: 1,
-        totalRecord: 0
+        size: 10,
+        page: 1,
+        totalCount: 0
       },
       searchModelDataBase: {},
       searchModelData: {}
@@ -314,7 +314,7 @@ export default {
               if(_this.tableData.length>0){
                 _this.fetchData();
               }else{
-                _this.fetchData(_this.pagingInfo.currentPage-1 || 1);
+                _this.fetchData(_this.pagingInfo.page-1 || 1);
               }
               _this.$message.success(`删除数据成功`)
               _this.$emit('on-remove-success')
@@ -395,7 +395,7 @@ export default {
         return
       }
 
-      _this.pagingInfo.currentPage = pageIndex || _this.pagingInfo.currentPage || 1
+      _this.pagingInfo.page = pageIndex || _this.pagingInfo.page || 1
       _this.loading = true
 
       let conditionObj = this.getPageVo();
@@ -404,7 +404,7 @@ export default {
         _this.$env === 'development' && console.log('[DEBUG] tableData:')
         _this.$env === 'development' && console.log(res)
         _this.tableData = res.data
-        _this.pagingInfo.totalRecord = res.totalRecord || res.data.length
+        _this.pagingInfo.totalCount = res.totalCount || res.data.length
         // 设置已选择项目
         _this.$nextTick(() => {
           _this.initRecordChecked()
@@ -467,7 +467,7 @@ export default {
        * 分页改变事件
        */
     handleSizeChange (val) {
-      this.pagingInfo.pageSize = val
+      this.pagingInfo.size = val
       this.fetchData()
     },
     /**
