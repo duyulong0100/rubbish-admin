@@ -21,7 +21,7 @@
                   style="width: 250px; margin-left: 10px; margin-right: 10px">
           </el-input>
           垃圾类型：
-          <el-select v-model="scope.form.categoryId" placeholder="请选择">
+          <el-select v-model="scope.form.categoryId" clearable placeholder="请选择">
             <el-option
                     v-for="item in categoryList"
                     :label="item.categoryName"
