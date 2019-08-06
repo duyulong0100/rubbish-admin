@@ -28,6 +28,13 @@
                   prop="categoryName"
                   label="分类名称">
           </el-table-column>
+          <el-table-column width="200"
+            prop="picUrl"
+            label="示意图片">
+            <template slot-scope="props">
+              <img class="img-type-item" :src="props.row.picUrl" />
+            </template>
+          </el-table-column>
           <el-table-column
                   prop="description"
                   label="分类描述">
@@ -56,6 +63,17 @@
         </el-form-item>
         <el-form-item label="垃圾类型描述：" prop="description">
           <el-input type="textarea" :rows="2" v-model="dialogVO.description" placeholder="请输入描述"></el-input>
+        </el-form-item>
+        <el-form-item label="垃圾类型图：" prop="">
+          <el-upload
+            class="avatar-uploader"
+            :action="$api.common.uploadAction"
+            :show-file-list="false"
+            :on-success="handleAvatarSuccess"
+            :before-upload="beforeAvatarUpload">
+            <img v-if="dialogVO.picUrl" :src="dialogVO.picUrl" class="avatar">
+            <i v-else class="el-icon-plus avatar-uploader-icon"></i>
+          </el-upload>
         </el-form-item>
         <el-form-item label="是否启用：">
           <el-switch v-model="dialogVO.status"></el-switch>
@@ -90,7 +108,8 @@
           id:'',
           categoryName:'',
           description:'',
-          status:true
+          status:true,
+          picUrl:''
         },
         rules: {
           categoryName: [
@@ -114,7 +133,8 @@
         this.dialogVO= {
           categoryName:'',
           description:'',
-          status:true
+          status:true,
+          picUrl:'',
         }
         this.openDialog();
       },
@@ -124,6 +144,7 @@
           categoryName:detailVO.categoryName,
           description:detailVO.description,
           status:detailVO.status==1,
+          picUrl:detailVO.picUrl
         }
         this.openDialog();
       },
@@ -190,6 +211,28 @@
       },
       afterFetchData(){
 
+      },
+      handleAvatarSuccess(res, file) {
+        console.log(res)
+        if(res.status===1){
+          this.dialogVO.picUrl = res.data;
+        }else{
+          this.dialogVO.picUrl='';
+        }
+
+      },
+      beforeAvatarUpload(file) {
+        let reqExp = /.(gif|jpg|jpeg|png|gif)/;
+        const isImg = reqExp.test(file.type);
+        const isLt10M = file.size / 1024 / 1024 < 10;
+
+        if (!isImg) {
+          this.$message.error('图片只支持gif,jpg,jpeg,png格式!');
+        }
+        if (!isLt10M) {
+          this.$message.error('上传头像图片大小不能超过 10MB!');
+        }
+        return isImg && isLt10M;
       }
     },
     mounted() {
@@ -197,3 +240,32 @@
     }
   };
 </script>
+<style scoped>
+  .img-type-item{
+    width: 80px;
+    height: 80px;
+  }
+  .avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+  }
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+  }
+  .avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+  }
+</style>

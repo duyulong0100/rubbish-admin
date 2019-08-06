@@ -72,7 +72,10 @@ export default UtilIce.recursiveRouterConfig([
 
 // 导出参与多标签页处理的路由设置
 // 这个数据会在 mian.js 中使用
-export const frameInRoutes = UtilIce.recursiveRouterConfig(routerConfig).map(
+export const frameInRoutes = UtilIce.recursiveRouterConfig([
+  ...routerConfig,
+  ...pageRouter
+]).map(
   e => {
     const route = e.children ? e.children[0] : e;
     return {

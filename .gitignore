@@ -9,3 +9,4 @@ target/
 logs/
 .classpath
 .settings/
+node_modules/
