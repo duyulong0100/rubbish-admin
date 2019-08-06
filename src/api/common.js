@@ -1,10 +1,10 @@
 import axios from 'axios'
-
+const env = process.env.NODE_ENV
 export default {
   /**
    * 图片上传地址
    */
-  uploadAction: '/file/upload',
+  uploadAction: process.env.VUE_APP_API_PREFIX + '/file/upload',
   /**
    * 下载文件
    */
